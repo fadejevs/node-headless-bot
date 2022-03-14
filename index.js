@@ -3,8 +3,13 @@
 // npm install puppeteer
 
 
-const puppeteer = require('puppeteer');
 
+// ###########################
+// ###########################
+// ###########################
+// FOR DATA RETRIEVING ->
+
+const puppeteer = require('puppeteer');
 ( async () => { 
 
     const browser = await puppeteer.launch({headless: true})
@@ -29,3 +34,10 @@ const puppeteer = require('puppeteer');
     await browser.close();
 
 })();
+
+
+
+// ###########################
+// ###########################
+// ###########################
+// FOR WEBSITE INTERACTION AND AUTOMATION ->
